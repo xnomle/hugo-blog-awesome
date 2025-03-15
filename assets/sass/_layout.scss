@@ -55,7 +55,7 @@
   }
 
   .post-item-date {
-    min-width: 96px;
+    min-width: 80px;
     color: $black;
 
     @include media-query($on-mobile) {
@@ -70,6 +70,7 @@
     font-size: $base-font-size;
     font-weight: normal;
     letter-spacing: 0.1px;
+    margin-right: 20px;
 
     @include media-query($on-mobile) {
       max-width: 15rem;
